@@ -3,7 +3,7 @@
 This project analyzes the *Music Store Database* using PostgreSQL.
 ## ⚡ Setup & Run
 
-1. *Download dataset:* [Music Store Dataset (ZIP)](music_store_dataset.zip)  
+1. *Download dataset:* [Music Store Dataset (ZIP)](music_store_dataset..zip)  
 2. *Open in pgAdmin:* Extract the folder → open the .sql file in Query Tool → Execute (F5)  
 3. *Run queries:* Open [music_store_queries.sql](sql/music_store_queries.sql) → Execute to see results
 All SQL queries are in [music_store_queries.sql](Music_Store_Analysis_Script.sql).  
