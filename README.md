@@ -33,14 +33,16 @@ Visualizations are included to highlight key insights.
 
 ---
 
+## 💬 Key Insights
+- Rock and Pop dominate global sales.  
+- USA, Canada, and UK drive the highest revenue.  
+- Certain artists and cities significantly contribute to total sales.
+
+---
+
 ### 🔗 Author
 *Naqi Afandi*  
 📧 alinaqiafandi@gmail.com  
 🌐 [LinkedIn](www.linkedin.com/in/naqi-afandi) | 💻 [GitHub](https://github.com/Naqiafandi786)
 
 ---
-
-## 💬 Key Insights
-- Rock and Pop dominate global sales.  
-- USA, Canada, and UK drive the highest revenue.  
-- Certain artists and cities significantly contribute to total sales.
