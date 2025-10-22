@@ -1,39 +1,39 @@
-# Music_store_database_analysis
-# 🎵 Music Store SQL Analysis (PostgreSQL)
+# 🎵 Music Store SQL Analysis
 
-This project explores the *Music Store Database*, a classic dataset with tables like customers, invoices, tracks, albums, and genres.  
-The goal was to analyze customer behavior, sales performance, and music preferences using *SQL queries* and *data visualization*.
-
----
-
-## 📁 Dataset Overview
-
-The database contains 11 interconnected tables:
-Album, Artist, Customer, Employee, Genre, Invoice,  
-Invoice_Line, Media_Type, Playlist, Playlist_Track, and Track.
+This project analyzes the *Music Store Database* using PostgreSQL.  
+All SQL queries are in [music_store_queries.sql](Music_Store_Analysis_Script.sql).  
+Visualizations are included to highlight key insights.
 
 ---
 
-## 🎯 Project Objectives
+## 📋 Questions & Key Results
 
-1. Write *SQL queries* (Easy → Moderate → Advanced) to extract insights.  
-2. Identify *top-performing genres, customers, and countries*.  
-3. Visualize the results using *Pivot Tables and Stacked Column Charts* in Excel.
+### 🟢 Easy
+1. *Most invoices by country* – Top countries with highest invoice counts.  
+2. *Top 3 invoice totals* – Largest individual purchases.  
+3. *City with highest revenue* – Best-performing city for targeted promotions.  
+4. *Top 5 countries by revenue* – [Bar Chart](top_5_countries.png)  
+
+### 🟡 Moderate
+1. *Rock music listeners* – Customer list with email & name.  
+2. *Tracks longer than average* – Popular extended tracks.  
+3. *Top 5 countries & top 5 genres* – [Stacked Column Chart](countries_by_top_genres.png)  
+
+### 🔴 Advanced
+1. *Most popular genre per country* – Top-selling genre(s) by country.  
+2. *Artist with highest revenue & top 3 tracks* – Leading artist and hits.  
+3. *Top 3 tracks of highest-grossing artist* – [Column Chart](top_tracks.png)  
 
 ---
 
-## 🧠 SQL Highlights
+## 🧰 Tools
+- PostgreSQL (pgAdmin) – SQL queries  
+- Excel / Google Sheets – Charts  
+- GitHub – Project repository  
 
-### 🔹 Easy Queries
-- Countries with the most invoices  
-- Top 3 total invoice values  
-- City generating the highest total revenue  
+---
 
-### 🔹 Moderate Queries
-- List of all Rock music listeners  
-- Tracks longer than average song length  
-
-### 🔹 Advanced Queries
-- Most popular music genre by country  
-- Artist with highest total revenue and top 3 best-selling tracks  
-- *Top 5 Countries vs Top 5 Genres* (for visualization)
+## 💬 Key Insights
+- Rock and Pop dominate global sales.  
+- USA, Canada, and UK drive the highest revenue.  
+- Certain artists and cities significantly contribute to total sales.
