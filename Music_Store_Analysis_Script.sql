@@ -13,6 +13,7 @@ ORDER BY c DESC
 SELECT total 
 FROM invoice
 ORDER BY total DESC
+LIMIT 3;
 
 
 /* Q3: Which city has the best customers? We would like to throw a promotional Music Festival in the city we made the most money. 
@@ -194,5 +195,6 @@ JOIN top_artist ta ON a.artist_id = ta.artist_id
 GROUP BY t.track_id
 ORDER BY track_revenue DESC
 LIMIT 3;
+
 
 
